@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id ="txta">
+    <input type="text" id ="txtb">
+    <button onclick="tinhtong();">
+        Tinh tong
+    </button>
+</body>
+<script>
+    function tinhtong(){
+        var txta = document.getElementById('txta').value;
+        var txtb = document.getElementById('txtb').value;
+        var tong = parseInt(txta) + parseInt(txtb);
+        alert('Tổng: ' + tong);
+    }
+</script>
+
+    
+</html>
